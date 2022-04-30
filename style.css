@@ -1,0 +1,107 @@
+body{
+	background-color: #1A5B35 ;
+	margin: 0 auto;
+	/*overflow: hidden;*/
+}
+.content{
+	margin: 0 auto;
+}
+
+.content1{
+	text-align: center;
+	padding-top: 120px;
+	color: white;
+	margin: 0 auto;
+
+}
+
+.p1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+
+.h1{
+	font-family: 'Comforter', cursive;
+	font-size: 47px;
+	margin: 0 auto;
+	padding-bottom: 25px;
+}
+
+.h2{
+	padding-top: 30px;	
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+.Group1{
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+.Group3{
+	position:absolute;
+	top: 0;
+	right: 0;
+}
+
+.Group4{
+	position: absolute;
+	left: 0;
+	top: 30px;
+	margin: 0 auto;
+}
+
+.Frame{
+	position: absolute;
+	bottom:240px ;
+	left: 840px;
+	margin: 0 auto;
+}
+
+.Group{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.Group5{
+	position: absolute;
+	left: 15px;
+	bottom: 80px;
+	margin: 0 auto;
+	width: ;
+}
+@media print{
+
+	.content1{
+		color: black;
+	}
+	.images3{
+		display: none;
+		
+	}
+}
+
+@media screen and (max-width: 576px){
+
+	.content1{
+		flex-direction: column;
+		font-size: 16px;
+
+	}
+
+	.h1{
+		font-size: 27px;
+	}
+
+	.Group3{
+		images: none;
+	}
+
+	.Frame{
+		Width: 84.4px;
+		Height: 90.1px;
+	}
+} 
